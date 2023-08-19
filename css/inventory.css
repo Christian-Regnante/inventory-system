@@ -1,0 +1,232 @@
+
+#block {
+	position: absolute;
+	width: calc(100% - 200px);
+	height: 100%;
+}
+
+#main-area {
+	position: absolute;
+	padding-top: 20px;
+	width: 100%;
+	height: 87.5%;
+	top: 70px;
+	left:200px;
+	transition: all 500ms linear;
+	background:transparent;
+}
+#main-area.active {
+	left:0px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+	padding: 30px;
+    border: 1px solid #888;
+    width: 20%;
+    box-shadow: 10px 10px 5px black;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#addItem {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-color: white;
+	float: left;
+	overflow-x: auto;
+	padding: 20px;
+	width: auto;
+}
+
+#editBtn {
+	display: inline-block;
+	padding: 8px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3px #999;
+}
+
+#editBtn:hover {
+	background-color: #3e8e41
+}
+
+#editBtn:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#updateBtn {
+	display: inline-block;
+	padding: 8px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3px #999;
+}
+
+#updateBtn:hover {
+	background-color: #3e8e41
+}
+
+#updateBtn:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#addBtn {
+	display: inline-block;
+	padding: 8px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: tomato;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3px #999;
+	
+}
+
+#addBtn:hover {
+	background-color: tomato
+}
+
+#addBtn:active {
+	background-color: tomato;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#Product_Panel {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: white;
+	float: left;
+	overflow-x: auto;
+	padding: 20px;
+	width: 90%;
+	height: 60%;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#Tasks_Panel h4 {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.badge {
+	float: right;
+	padding: 3px 5px;
+	width: 200px;
+	border-radius: 25px;
+	background-color: rgb(244, 112, 112);
+	text-align: center;
+	color: white;
+}
+
+.task-list {
+	display: block;
+	padding: 7px 10px;
+	margin-left: 70px;
+	margin-right: 70px;
+	border: 1px solid gainsboro;
+	text-decoration:none;
+	color:#282828;
+}
+
+.task-list:hover {
+	background-color: gainsboro;
+}
+
+.table {
+	display: block;
+	padding:7px;
+	border: none;
+	background-color: transparent;
+}
+
+.hidden{
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+table.pureTable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	overflow: auto;
+	table-layout: fixed;
+}
+
+table.pureTable td,
+table.pureTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table.pureTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table.pureTable tr:hover {
+	background-color: #ddd;
+}
+
+table.pureTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #ddd;
+	color: black;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+}

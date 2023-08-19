@@ -1,0 +1,99 @@
+
+#Tasks_Panel-info {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 93%;	
+	height: 500px;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-color: white;
+	float: left;
+	overflow: auto;
+
+}
+
+.task-list:hover {
+	background-color: gainsboro;
+}
+
+.submit{
+	
+	padding-left: 10%;
+	height: 80%;
+
+    
+}
+.submit .comment{
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 5px;
+	width: 100%;
+	font-size: 25px;
+	height: 150px;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+.submit button{
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+	background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+	background-color:#ffc477;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	width: 150px;
+	height: 50px;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;	
+	
+}
+
+.submit button:hover{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+	background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+	background-color:#fb9e25;
+}
+
+.submit button:active{
+	position:relative;
+	top:1px;
+}
+
+
+#title {
+	padding-left: 38%;
+}
+
+#me {
+	padding-bottom: 30px;
+}
+
+#in {
+	float:left;
+	width: 60%;
+	margin-top: 6%;
+
+}
+
+#sub-btn {
+	float: right;
+	margin-top: 12%;
+	margin-right: 13%;
+
+}
